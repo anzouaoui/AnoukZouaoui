@@ -1,0 +1,32 @@
+/*-------------------
+----STYLE DU MENU----
+---------------------*/
+.menuItem {
+  list-style: none;
+  display: inline;
+  float: none;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.menuItem > a {
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+.menuItem > a:active {
+  background-color: #474747;
+}
+
+.menuItem > a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menuItem > a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+.menuItem:hover {
+  border-bottom:2px solid #474747;
+}
