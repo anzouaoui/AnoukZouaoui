@@ -1,0 +1,12 @@
+/*---------------------------
+----STYLE DU PIED DE PAGE----
+-----------------------------*/
+.icon {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.icon > a {
+  font-size: 2.4em
+}

@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/banniere.css">
         <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
       <header>
@@ -72,3 +74,6 @@
                 </div>
             </div>
         </header>
+        <?php
+        include_once 'footer.php';
+         ?>
